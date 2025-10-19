@@ -43,15 +43,15 @@ const FeatureSection = () => {
           </div>
 
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
-            <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
+            <h2 className="text-black text-4xl font-semibold"></h2>
             <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-              Time to unlock new speeds
+              Delivering More Than Packages — We Deliver Trust.
             </h3>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+             Panda Cod adalah layanan pengiriman modern yang cepat, tepat, dan bisa dipercaya.
+             Kami tidak hanya mengantar paket, tapi juga membawa rasa aman di setiap perjalanan.
+             Dengan dukungan teknologi dan pelayanan terbaik, Panda Cod selalu siap jadi jembatan antara pengirim dan penerima.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
