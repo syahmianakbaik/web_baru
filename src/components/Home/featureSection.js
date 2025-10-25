@@ -3,8 +3,8 @@ import Fade from "react-reveal/Fade"
 
 // Assets
 import HeroImage from "../../images/cod.png"
-import Image1 from "../../images/3D-liquid-abstract-1.webp"
-import Image2 from "../../images/3D-liquid-abstract.webp"
+import Image1 from "../../images/packing.png"
+import Image2 from "../../images/3D-liquid-abstract-2.webp"
 import Image3 from "../../images/3D-liquid-abstract-3.webp"
 
 const FeatureSection = () => {
@@ -95,21 +95,14 @@ const FeatureSection = () => {
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
           <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
             <span className="text-black font-semibold font-montserrat text-4xl">
-              TECH STACK
+              VISI
             </span>
             <div className="mt-5">
-              <div>
-                <p className="text-black text-2xl">Gatsby 5+</p>
-                <p className="text-black opacity-50 text-sm">SSG and more...</p>
-              </div>
               <div className="mt-5">
-                <p className="text-black text-2xl">React 18+</p>
-                <p className="text-black opacity-50 text-sm">Create more...</p>
-              </div>
-              <div className="mt-5">
-                <p className="text-black text-2xl">Tailwind CSS 3+</p>
+                <p className="text-black text-2xl">Menjadi perusahaan layanan antar 
+                terdepan di Indonesia yang menghadirkan
+                kenyamanan, kecepatan, dan kepercayaan untuk setiap pengiriman.</p>
                 <p className="text-black opacity-50 text-sm">
-                  A utility-first CSS
                 </p>
               </div>
             </div>
@@ -117,25 +110,30 @@ const FeatureSection = () => {
 
           <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
             <h2 className="text-white text-4xl">
-              Start building amazing web experiences
+              MISI
             </h2>
-            <p className="mt-10 text-white opacity-70">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
-            </p>
+            <ol className="mt-10 text-white list-decimal list-inside space-y-3">
+            <li>
+            Memberikan layanan antar yang cepat, aman, dan andal bagi seluruh pelanggan.
+            </li>
+            <li>
+            Menerapkan teknologi terbaru untuk memudahkan pelacakan dan kemudahan akses layanan.
+            </li>  
+            <li>
+            Menjaga profesionalisme dan integritas dalam setiap aspek pelayanan.
+            </li>  
+            <li>
+            Berkontribusi pada pengembangan ekonomi lokal dengan menghadirkan lapangan kerja dan mendukung UMKM.
+            </li>
+            <li>
+            memastikan kepuasan pelanggan melalui pelayanan yang ramah dan responsif.
+            </li>
+          </ol>
           </div>
         </div>
       </Fade>
 
-      <div className="mt-10 px-8">
+      {/* <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
           OPEN SOURCE
         </h2>
@@ -183,7 +181,7 @@ const FeatureSection = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Fade bottom cascade>
         <div className="grid grid-cols-3 mt-10 gap-4 xxs:grid-cols-1 lg:grid-cols-3 px-5">
@@ -202,20 +200,19 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">v1.0.0</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">Released</h4>
+            <h3 className="text-black text-2xl">KEGIATAN TIM PACKING</h3>
+            <h4 className="mt-10 text-black opacity-70 text-xl"></h4>
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Fork</h3>
+            <h3 className="text-white text-2xl"></h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">
-              PR's welcome
             </h4>
           </div>
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Stars</h3>
+            <h3 className="text-white text-2xl"></h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">
-              Give support
+            
             </h4>
           </div>
         </div>
